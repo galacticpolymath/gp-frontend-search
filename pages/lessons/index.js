@@ -12,6 +12,10 @@ const LessonsPage = ({ lessons }) => {
         <p>Our lessons are free. We strive to create mind-expanding learning experiences that a non-specialist can teach in <em>any G5-12 classroom</em> with 15 minutes of prep time!</p>
       </Hero>
 
+      <Link key='search' href={`/search`} passHref>
+        <a>Search For a Lesson</a>
+      </Link>
+
       <div className='bg-light-gray'>
         <div className='container mx-auto grid py-5 px-3 gap-3'>
           {lessons
